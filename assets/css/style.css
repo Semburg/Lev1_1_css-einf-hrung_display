@@ -1,0 +1,34 @@
+p{
+    text-align: center;
+    margin: 15px auto;
+    width: 300px;
+    background-color: #555;
+}
+
+a{
+    display: block;
+    text-decoration: none;
+    color: white;
+    text-align: center;
+    margin: 15px auto;
+    border: 1px solid black;
+    padding: 10px 20px;
+}
+
+img{
+    display: block;
+    width: 50%;
+    margin: 15px auto;
+}
+
+div{
+    display: none;
+}
+
+p:hover{
+    background-color: thistle;
+}
+
+p:hover + div{
+    display: block;
+}
